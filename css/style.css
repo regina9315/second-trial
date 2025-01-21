@@ -1,0 +1,81 @@
+
+    body{
+      background-color:white;
+      font-family:Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    nav {
+      background-color: deeppink;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 0;
+    }
+   nav  ul{
+     display: flex;
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+    }
+   nav ul li{
+     margin: 0 20px;
+   }
+   nav ul li a{
+     text-decoration: none;
+     font-size: 21px;
+     font-weight: bold;
+     color: black;
+     padding:10px 20px ;
+     border-radius:50px ;
+
+   }
+   nav ul li a:hover{
+     background-color: white;
+   }
+     p{
+     font: bold;
+     font-weight:bold;
+     color: black;
+      font-size: 21px;
+   }
+     /* div{*/
+     /*     background-color: indigo;*/
+     /*    height: 100px;*/
+     /*    color: white;*/
+     /*}*/
+     .one{
+         background-color: chocolate;
+         height: 200px;
+     }
+     .three{
+         background-color: gold;
+         height: 50px;
+         color: darkslateblue;
+     }
+     #four{
+         background-color: red;
+         height: 120px;
+         color: blue;
+     }
+     #five{
+         background-color: blue;
+         height: 150px;
+         color: white;
+       }
+.background-image{
+         background-image: url("https://cdn.pixabay.com/photo/2016/04/19/13/22/hospital-1338585_960_720.jpg");
+         background-size: cover;
+         background-position: center;
+         height: 550px;
+         border-radius: 20px;
+         margin: 20px;
+     }
+main{
+    display: flex;
+    align-items: center;
+}
+div{
+    border-radius: 20px;
+    margin:  20px;
+}
